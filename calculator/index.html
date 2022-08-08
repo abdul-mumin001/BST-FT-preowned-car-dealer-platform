@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"> <span>BST</span>-FT <br>
+            <p>One Stop Solution<p></a>
+    
+    
+        <nav class="navbar">
+            <a href="#home">Calculator</a>
+            <a href="/about us/aboutus.html">About Us</a>
+            <a href="/Mini-project(Contact us)/index.html">contact Us</a>
+        </nav>
+    
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="far fa-user"></i>
+        </div>
+    
+    </header> 
+    
+    <h2 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 150px 0 30px 0 ;">Calculate the market value of your car</h2>
+    <div class="container">
+        <div>
+            <br>
+        </div>
+      <div class="input">
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Years</span>
+        <input type="number" id="years" name="year" class="form-control" placeholder="How old is your car eg: 2" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Price</span>
+          <input type="number" id="prices" name="price" class="form-control" placeholder="Original Price of the Car" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Odometer</span>
+            <input type="number" id="odometers" name="odometer" class="form-control" placeholder="Odometer reading eg:10000" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+
+      <div id="results" class="result"></div>
+
+    <input type="button" name="add" value="Calculate" onclick="add()" style="float: right; margin-top:10px; margin-bottom:15px" class="btn btn-primary">
+</div>
+    </div>
+
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+         
+            <div>
+                <a href="#" class="logo"> <span>BST</span>-FT </a>
+                <p>One Stop Solution</p>
+                 </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> calculator </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> about us </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact us</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> 1023456789 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> info@bst-ft.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Guwahati, Assam - 781001</a>
+               
+            </div>
+    
+            <div class="box">
+                <h3>Social Media</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+    
+        </div>
+    
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

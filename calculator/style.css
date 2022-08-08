@@ -1,0 +1,10 @@
+.input {
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+    height: 200px;
+}
+
+.input-group-text{
+    width: 100px;
+}
