@@ -53,7 +53,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <a href="#home">Home</a>
     <a href="calculator/index.html">Calculator</a>
         <a href="about us/aboutus.html">About Us</a>
-        <a href="Mini-project(Contact us)/contact.html">contact Us</a>
+        <a href="contactUs-MiniProject/contact.html">contact Us</a>
     </nav>
 
     <a href="logout.php">
